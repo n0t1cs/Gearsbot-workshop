@@ -13,9 +13,8 @@
   "deny": {
     "categories": [
       "Movement",
-      "Motion",
       "Text",
-      "Pen",
+      "Pen (Experimental)",
       "Lists",
       "Sound",
       "Experimental",
