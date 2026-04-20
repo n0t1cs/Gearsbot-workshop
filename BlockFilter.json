@@ -1,9 +1,21 @@
 {
-  "deny": {
-    "categories": ["Motor", "Pen (Experimental)"],
-    "blocks": ["move_tank", "move_tank_for"]
-  },
   "show": {
-    "categories": ["Movement"]
+    "categories": [
+      "Movement",
+      "Sensors",
+      "Control",
+      "Logic",
+      "Loops",
+      "Math",
+      "Variables"
+    ]
+  },
+  "deny": {
+    "blocks": [
+      "move_tank",
+      "move_tank_for",
+      "move_steering",
+      "move_steering_for"
+    ]
   }
 }
