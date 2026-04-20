@@ -1,21 +1,24 @@
 {
   "show": {
     "categories": [
-      "Movement",
+      "Motor",
       "Sensors",
       "Control",
       "Logic",
       "Loops",
       "Math",
       "Variables"
-    ]
+    ],
+    "blocks": ["color sensor"]
   },
   "deny": {
-    "blocks": [
-      "move_tank",
-      "move_tank_for",
-      "move_steering",
-      "move_steering_for"
+    "categories": [
+      "Movement",
+      "Text",
+      "Pen (Experimental)",
+      "Lists",
+      "Sound",
+      "Experimental"
     ]
   }
 }
