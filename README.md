@@ -8,7 +8,15 @@ Use these links in the Gearbots URL generator:
 
 - **Workshop world configuration** - https://n0t1cs.github.io/Gearsbot-workshop/PistaMap.json
 - **Workshop robot configuration** - https://n0t1cs.github.io/Gearsbot-workshop/robot.json
-- **Workshop block filter** - https://n0t1cs.github.io/Gearsbot-workshop/BlockFilter.json
+
+### Block Filter Choice (Required)
+
+For activities in this workshop, the block filter must use one of these modes:
+
+- **LessBlocks** (https://n0t1cs.github.io/Gearsbot-workshop/LessBlocks.json): only the essential blocks for a PID line follower.  
+  Best for beginner classes and step-by-step instruction.
+- **MoreBlocks** (https://n0t1cs.github.io/Gearsbot-workshop/LessBloMoreBLocks.json): includes more blocks and options for experimentation.  
+  Better for advanced students, but it can confuse beginners.
 
 Reference image:
 
@@ -26,7 +34,9 @@ Reference image:
 
 ### Root Files
 
-- **[BlockFilter.json](BlockFilter.json)**: Configures which categories and blocks are available to students. To hide a category, use the category ID, which matches the category name in English. To hide an individual block, use the block type from **[Help_files/toolbox.xml](Help_files/toolbox.xml)**. If you deny a category but explicitly show a block inside it, the category will still appear, with the other blocks hidden. This filter works best with the latest Gearbots version.
+- **[BlockFilter.json](BlockFilter.json)**: Configures which categories and blocks are available to students.  
+  In this workshop, use it in one of two teaching modes: **LessBlocks** (PID essentials only) or **MoreBlocks** (expanded options for experimentation).  
+  To hide a category, use the category ID, which matches the category name in English. To hide an individual block, use the block type from **[Help_files/toolbox.xml](Help_files/toolbox.xml)**. If you deny a category but explicitly show a block inside it, the category will still appear, with the other blocks hidden. This filter works best with the latest Gearbots version.
 - **[PistaMap.json](PistaMap.json)**: Defines the map used in the simulator. You can generate or edit this file with the **[Gearbots World Builder](https://gears.aposteriori.com.sg/builder.html)**.
 - **[robot.json](robot.json)**: Defines the robot used in the workshop. The current setup uses the default dual-sensor line follower robot. You can create or edit robot configurations with the **[Gearbots Configurator](https://gears.aposteriori.com.sg/configurator.html)**.
 
