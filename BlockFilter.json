@@ -1,10 +1,10 @@
 {
   "deny": {
-    "categories": ["Motion", "Sensors", "Control", "Loops", "Math", "Sound", "Pen", "Experimental", "Logic", "Text", "Lists", "Functions"],
+    "categories": ["Motion", "Sensors", "Sound", "Pen", "Experimental", "Text", "Lists"],
     "blocks": []
   },
   "show": {
     "categories": [],
-    "blocks": ["color_sensor", "sleep", "controls_whileUntil", "math_number", "math_arithmetic", "math_constrain"]
+    "blocks": ["color_sensor", "color", "camera_capture_image", "camera_get_rgb"]
   }
 }
