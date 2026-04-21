@@ -1,17 +1,10 @@
 {
+  "deny": {
+    "categories": ["Motion", "Motor", "Sensors", "Control", "Loops", "Math", "Sound", "Pen", "Experimental", "Logic", "Text", "Lists", "Functions"],
+    "blocks": []
+  },
   "show": {
-    "blocks": [
-      "color_sensor",
-      "controls_whileUntil",
-      "logic_boolean",
-      "math_arithmetic",
-      "math_constrain",
-      "math_number",
-      "run_motor",
-      "sleep",
-      "variables_get",
-      "variables_set",
-      "when_started"
-    ]
+    "categories": [],
+    "blocks": ["run_motor", "color_sensor", "sleep", "controls_whileUntil", "math_number", "math_arithmetic", "math_constrain"]
   }
 }
