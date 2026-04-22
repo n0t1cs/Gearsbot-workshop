@@ -1,7 +1,7 @@
 {
   "worldName": "custom",
   "options": {
-    "imageURL": "https://raw.githubusercontent.com/n0t1cs/Gearsbot-workshop/master/maps/pista.png",
+    "imageURL": "https://raw.githubusercontent.com/n0t1cs/Gearsbot-workshop/master/maps/pista.jpeg",
     "groundType": "box",
     "length": 100,
     "width": 100,
@@ -22,7 +22,7 @@
     "restartAnimationOnRun": false,
     "objects": [],
     "startPos": "center",
-    "startPosXYZStr": "15, 50, 0",
+    "startPosXYZStr": "15, 110, 0",
     "startRotStr": "-90",
     "startPosXYZ": null,
     "startRot": null,
